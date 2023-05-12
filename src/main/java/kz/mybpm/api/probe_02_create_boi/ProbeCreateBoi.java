@@ -19,8 +19,8 @@ public class ProbeCreateBoi {
 
     CreateBoiInput input = new CreateBoiInput();
     input.boCode = "MAN";
-    input.initialFieldValues.put("SURNAME", "Потапенко");
-    input.initialFieldValues.put("NAME", "Алексей");
+    input.initialFieldValues.put("SURNAME", "Иванов");
+    input.initialFieldValues.put("NAME", "Семён");
 
     ObjectMapper objectMapper = new ObjectMapper();
     String       inputString  = objectMapper.writeValueAsString(input);

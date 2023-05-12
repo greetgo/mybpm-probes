@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59238461-81f9-4660-a1e2-07cb6e1be180" name="Changes" comment="создал пустой проект для примеров работы с MyBPM">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="59238461-81f9-4660-a1e2-07cb6e1be180" name="Changes" comment="Добавлены примеры">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_02_create_boi/ProbeCreateBoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_02_create_boi/ProbeCreateBoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_03_ReadBoiData/ProbeLoadBoiData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_03_ReadBoiData/ProbeLoadBoiData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1683877359009</updated>
       <workItem from="1683877360243" duration="69000" />
-      <workItem from="1683877434734" duration="2620000" />
+      <workItem from="1683877434734" duration="5002000" />
     </task>
     <task id="LOCAL-00001" summary="создал пустой проект для примеров работы с MyBPM">
       <created>1683877486694</created>
@@ -159,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683877486694</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Добавлены примеры">
+      <created>1683880066309</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683880066309</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +184,28 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создал пустой проект для примеров работы с MyBPM" />
-    <option name="LAST_COMMIT_MESSAGE" value="создал пустой проект для примеров работы с MyBPM" />
+    <MESSAGE value="Добавлены примеры" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлены примеры" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_01_auth/ProbeAuth.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_02_create_boi/ProbeCreateBoi.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_03_ReadBoiData/ProbeLoadBoiData.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

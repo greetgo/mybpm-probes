@@ -18,7 +18,8 @@ public class ProbeLoadBoiData {
   public static void main(String[] args) throws Exception {
     LoadBoiInput input = new LoadBoiInput();
     input.boCode = "MAN";
-    input.boiId  = "1CGoYxZa7r3aT4Gd";
+    //noinspection SpellCheckingInspection
+    input.boiId  = "5ldxtvMXIDf7qmY@";
 
     ObjectMapper objectMapper = new ObjectMapper();
     String       inputString  = objectMapper.writeValueAsString(input);
