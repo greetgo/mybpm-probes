@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="59238461-81f9-4660-a1e2-07cb6e1be180" name="Changes" comment="Добавлены примеры">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_02_create_boi/ProbeCreateBoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_02_create_boi/ProbeCreateBoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_03_ReadBoiData/ProbeLoadBoiData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_03_ReadBoiData/ProbeLoadBoiData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,20 +53,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/pompei/IdeaProjects/mybpm-probes/.idea",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/pompei/IdeaProjects/mybpm-probes/.idea&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kz.mybpm.api.probe_03_ReadBoiData" />
@@ -78,7 +77,20 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProbeLoadBoiData">
+  <component name="RunManager" selected="Application.Asd">
+    <configuration name="Asd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kz.mybpm.api.Asd" />
+      <module name="mybpm-probes.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kz.mybpm.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="mybpm-probes.main" />
@@ -133,6 +145,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Asd" />
         <item itemvalue="Application.ProbeLoadBoiData" />
         <item itemvalue="Application.ProbeCreateBoi" />
         <item itemvalue="Application.ProbeAuth" />
@@ -149,7 +162,8 @@
       <option name="presentableId" value="Default" />
       <updated>1683877359009</updated>
       <workItem from="1683877360243" duration="69000" />
-      <workItem from="1683877434734" duration="5002000" />
+      <workItem from="1683877434734" duration="6311000" />
+      <workItem from="1688186432420" duration="2902000" />
     </task>
     <task id="LOCAL-00001" summary="создал пустой проект для примеров работы с MyBPM">
       <created>1683877486694</created>
@@ -165,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683880066309</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавлены примеры">
+      <created>1683883556613</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1683883556613</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,11 +220,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_02_create_boi/ProbeCreateBoi.java</url>
           <line>19</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/kz/mybpm/api/probe_03_ReadBoiData/ProbeLoadBoiData.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
